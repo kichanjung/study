@@ -23,7 +23,7 @@ typedef struct
 
 // 자료 구조로 안되나? 
 // to do 클래스화로 진행
-// Account accArr[100];
-// int accNum = 0;
+Account accArr[100];
+int accNum = 0;
 
 #endif // PROJECT_OOP_01_H
