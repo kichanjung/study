@@ -29,7 +29,7 @@ Account::Account(int id, int money, char* name): accID(id), balance(money)
     cusName = new char[NAME_LEN];
     strcpy(cusName,name);
 }
-Account::Account(const Account& acc)
+Account::Account(const Account& acc) : accID(acc.accID), balance(acc.balance)
 {
 	cusName = new char[NAME_LEN];
     strcpy(cusName,acc.cusName);
